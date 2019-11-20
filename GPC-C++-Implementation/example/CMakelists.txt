@@ -1,0 +1,18 @@
+ADD_EXECUTABLE(TCircularBuffer_example TCircularBuffer_example.cpp)
+TARGET_LINK_LIBRARIES(TCircularBuffer_example ${EXTRA_LIBS} mathlib)
+
+
+
+# For trajectory example
+ADD_EXECUTABLE(trajectory_example trajectory_example.cpp)
+TARGET_LINK_LIBRARIES(trajectory_example  ${EXTRA_LIBS} mathlib)
+
+
+# For trajectory example
+ADD_EXECUTABLE(discrete_system_example discrete_system_example.cpp)
+TARGET_LINK_LIBRARIES(discrete_system_example  ${EXTRA_LIBS} mathlib)
+
+
+# For gpc_example
+ADD_EXECUTABLE(gpc_example gpc_example.cpp)
+TARGET_LINK_LIBRARIES(gpc_example  ${EXTRA_LIBS} mathlib)
