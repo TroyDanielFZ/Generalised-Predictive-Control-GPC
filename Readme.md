@@ -6,7 +6,7 @@ Troy_Daniel 2019-11-20 15:36	Wed
 
 
 Generalised Predictive Control, GPC, is an mport implement of model predictive
-control, which dates back to 1987, and was raied by Clarke et al with the
+control, which dates back to 1987, and was raised by Clarke et al with the
 CARIMA model, please refer to
 [1](https://scholar.google.com/scholar?q=Generalized%20predictive%20control-Part%20I%20The%20basic%20algorithm)
 for more details.
